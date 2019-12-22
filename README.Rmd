@@ -1,0 +1,56 @@
+---
+output: github_document
+---
+
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/PatGruetter/FARSPackage.svg?branch=master)](https://travis-ci.org/PatGruetter/FARSPackage)
+<!-- badges: end -->
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# FARSPackage
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of FARSPackage is to display information on the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS) for the years 2013, 2014 and 2015.
+
+## Installation
+
+You can install the released version of FARSPackage from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("FARSPackage")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("PatGruetter/FARSPackage")
+```
+## Example
+
+Example 1)
+
+```{r example}
+library(FARSPackage)
+fars_summarize_years(2014:2015)
+```
+
+Example 2)
+
+```{r ex2}
+fars_map_state(5,2015)
+```
+
