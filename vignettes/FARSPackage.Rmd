@@ -1,0 +1,36 @@
+---
+title: "FARSPackage"
+author: P.G.
+date: "2019-12-22"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{FARSPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The FARS package contains data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS) for the years 2013, 2014 and 2015. FARS is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+The path of the data for the year 2015 for instance is given by \code{system.file("extdata", "accident_2015.csv.bz2", package ="FARSPackage")}.
+
+The package contains two functions, one to summarize the data for a given year or a range of years and the other to print the locations of fatal injuries for a certain state in a speciafied year.
+
+Let's have a look at the function called \code{fars_summarize_years()}. The example shows the summary of FARS data for the years 2014 and 2015:
+
+```{r}
+library(FARSPackage)
+fars_summarize_years(2014:2015)
+```
+
+Let's have a look at the other function called \code{fars_map_state()}. This function plots a map for fatal injuries in state number 5 for the year 2015:
+
+```{r}
+fars_map_state(5,2015)
+```
