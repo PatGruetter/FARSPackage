@@ -1,6 +1,6 @@
 ---
 title: "FARSPackage"
-author: P.G.
+author: PG
 date: "2019-12-22"
 output: rmarkdown::html_vignette
 vignette: >
