@@ -1,8 +1,8 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/PatGruetter/FARSPackage.svg?branch=master)](https://travis-ci.org/PatGruetter/FARSPackage)
+[![Build
+Status](https://travis-ci.com/PatGruetter/FARSPackage.svg?branch=master)](https://travis-ci.com/PatGruetter/FARSPackage)
 <!-- badges: end -->
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

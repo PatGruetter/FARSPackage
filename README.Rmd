@@ -3,7 +3,7 @@ output: github_document
 ---
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/PatGruetter/FARSPackage.svg?branch=master)](https://travis-ci.org/PatGruetter/FARSPackage)
+[![Build Status](https://travis-ci.com/PatGruetter/FARSPackage.svg?branch=master)](https://travis-ci.com/PatGruetter/FARSPackage)
 <!-- badges: end -->
 
 
